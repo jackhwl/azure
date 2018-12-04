@@ -8,7 +8,7 @@ namespace BethanysPieShop.ViewModels
 {
     public class HomeViewModel
     {
-        public string Title { get; set; }
-        public List<Pie> Pies { get; set; }
+        public string CurrentCategory { get; set; }
+        public IEnumerable<Pie> Pies { get; set; }
     }
 }
