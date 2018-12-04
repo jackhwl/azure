@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace BethanysPieShop.Models
 {
@@ -16,10 +17,14 @@ namespace BethanysPieShop.Models
 
         public IEnumerable<Pie> GetAllPies()
         {
-            return _appDbContext.Pies;
+            return _appDbContext.Pies.Include(c=>c.Category);
         }
 
-        public IEnumerable<Pie> PiesOfTheWeek { get; }
+        public IEnumerable<Pie> PiesOfTheWeek
+        {
+            get { return _appDbContext.Pies.Include(c => c.Category).Where(p => p.IsPieOfTheWeek); }
+        }
+
         public Pie GetPieById(int pieId)
         {
             return _appDbContext.Pies.FirstOrDefault(p=>p.Id == pieId);
