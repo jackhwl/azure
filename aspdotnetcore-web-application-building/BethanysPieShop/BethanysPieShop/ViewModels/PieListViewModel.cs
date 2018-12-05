@@ -6,8 +6,9 @@ using BethanysPieShop.Models;
 
 namespace BethanysPieShop.ViewModels
 {
-    public class HomeViewModel
+    public class PieListViewModel
     {
-        public IEnumerable<Pie> PieOfTheWeek { get; set; }
+        public string CurrentCategory { get; set; }
+        public IEnumerable<Pie> Pies { get; set; }
     }
 }
