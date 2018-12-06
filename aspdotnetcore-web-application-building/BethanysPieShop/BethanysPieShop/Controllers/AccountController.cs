@@ -33,6 +33,7 @@ namespace BethanysPieShop.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(LoginViewModel loginViewModel)
         {
             if (!ModelState.IsValid)
@@ -56,12 +57,14 @@ namespace BethanysPieShop.Controllers
             return View(loginViewModel);
         }
 
+        [AllowAnonymous]
         public IActionResult Register()
         {
             return View(new LoginViewModel());
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Register(LoginViewModel loginViewModel)
         {
             if (ModelState.IsValid)
