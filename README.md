@@ -1,22 +1,53 @@
 ## AZ-900 Microsoft Azure Fundamentals
 ## Microsoft Certified Azure Fundamentals Exam AZ-900 (Jim Boyce)
-### Chapter 1: Cloud Concepts
+### Chapter 1: Cloud Concepts: computer, networking, storage
   - DESCRIBE CLOUD SERVICES
     - Identify the benefits and considerations of using cloud services
       - Identify the benefits of cloud computing, such as High Availability, Scalability, Elasticity, Agility, and Disaster Recovery
-        - Scalability: horizontal scaling: add more servers to scale out, then scale in (eliminate the additional servers)
-                       vertical scaling: increasing the amount of memory to scaling up, then scling down.
+        - **Scalability**: the process of adding more resources on an as-needed basis
+          - horizontal scaling: add more servers to scale out, then scale in (eliminate the additional servers)
+          - vertical scaling: increasing the amount of memory to scaling up, then scling down.
         - Elasticity: automatic scaling
-        - Agility: Azure makes it very easy to scale resources to meet demand requirements, and Autoscale—once configured—can make it almost effortless to scale resources. The capability to rapidly adjust resources to meet demand is one aspect of cloud agility.
-        - High Availability (HA): service level agreement (SLA): Composite SLA = SLA * SLA * SLA
-        - Fault Tolerance: generally applies at the component level of a service
-        - Disaster Recovery: refers to the process of recovering from a situation where multiple systems or services fail
+        - Agility: refers to the capability to quickly deploy services with reduced effort and cost. Azure makes it very easy to scale resources to meet demand requirements, and Autoscale—once configured—can make it almost effortless to scale resources. The capability to rapidly adjust resources to meet demand is one aspect of cloud agility.
+        - **High Availability (HA)**: service level agreement (SLA): Composite SLA = SLA * SLA * SLA
+        - **Reliability**: resilience, depoy in multiple locations, No sigle point of failure
+          - Fault Tolerance: generally applies at the component level of a service
+          - Disaster Recovery: refers to the process of recovering from a situation where multiple systems or services fail
+        - **Predictability**: predictable performance and costs, knowing your application will always perform as expected and knowing what it will cost
+        - Management: 
+          - **Security**: having full control of your cloud security posture
+          - **Governamce**: standardizing cloud deployments to meet requirments/company standards
+          - **Manageability**: management of cloud resources and how we interact with them
+            - Management of the cloud:
+              - Autoscaling
+              - Monitoring
+              - Template-based deployments
+            - Management in the cloud:
+              - Portal
+              - CLI
+              - APIs
+        - principles of economies of scale (规模经济): Technical economies of scale are achieved when a cloud provider can purchase a large amount of hardware and other infrastructure at a discount ...
       - Identify the differences between Capital Expenditure (CapEx) and Operational Expenditure (OpEx)
       - Describe the consumption-based model
     - Financial Models: highlights the benefits of moving from a capital expenditure model to an operational expenditure model
-    - Cloud Computing Models and Responsibilities:
-      - Software-as-a-Service (SaaS):
-      - Infrastructure-as-a-Service (IaaS): vitualization, IaaS generally has a higher shared responsibility than SaaS
-      - Platform-as-a-Service (PaaS): provides a development platform that you can use to create and deploy many different types of web applications without worrying about deploying or managing the servers and other infrastructure that support that application
+    - Cloud Computing Models and Responsibilities: Trade-offs exist within each model between flexibility and control
+      - Infrastructure-as-a-Service (IaaS): servers, storage and networking as a service
+        - (vitualization, Networks, physical buildings), 
+        - IaaS generally has a higher shared responsibility than SaaS
+      - Platform-as-a-Service (PaaS): 
+        - ((Iaas), Middleware, tools such as database management tools), 
+        - supports web application life cycle, avoids software license hell, 
+        - provides a development platform that you can use to create and deploy many different types of web applications without worrying about deploying or managing the servers and other infrastructure that support that application
+      - Software-as-a-Service (SaaS): Office 365, Azure SQL
+        - ((Paas) Apps):
+        - no maintenance and latest features
+      - Serverless: Extreme PaaS
+        - Azure Functions is the best know serverless service
+      <img src="service-model.png">
       - Shared Responsibility 
-      <img src="https://learn.microsoft.com/en-us/azure/security/fundamentals/media/shared-responsibility/shared-responsibility.svg">
+        - <img src="https://learn.microsoft.com/en-us/azure/security/fundamentals/media/shared-responsibility/shared-responsibility.svg">
+        - <img src="responsibility.png">
+    - Public, Private, and Hybrid Cloud Models: The key to differentiating between a hybrid cloud scenario and a mix of on-premises and cloud services is whether there is service interaction between your on-premises service and the related service(s) in the cloud. If you do have interaction between services, then you do have a hybrid cloud scenario.
+      - Public： Reduced cost
+      - Private：Greater control over systems, applications, and data
+      - Hybrid: non-cloud services hosted on-premises directly interact with services hosted in either a public or a private cloud
