@@ -47,7 +47,25 @@
       - Shared Responsibility 
         - <img src="https://learn.microsoft.com/en-us/azure/security/fundamentals/media/shared-responsibility/shared-responsibility.svg">
         - <img src="responsibility.png">
-    - Public, Private, and Hybrid Cloud Models: The key to differentiating between a hybrid cloud scenario and a mix of on-premises and cloud services is whether there is service interaction between your on-premises service and the related service(s) in the cloud. If you do have interaction between services, then you do have a hybrid cloud scenario.
+    - Azure Marketplace: an extra layer of functionality for your cloud applications, by letting users use and integrate third-party products and services. greate place to using or selling a service
+      - solutions and services
+      - azure app store
+      - easy to integrate
+      - publish your own
+    - Cloud architecture models: Public, Private, and Hybrid Cloud Models: The key to differentiating between a hybrid cloud scenario and a mix of on-premises and cloud services is whether there is service interaction between your on-premises service and the related service(s) in the cloud. If you do have interaction between services, then you do have a hybrid cloud scenario.
       - Public： Reduced cost
       - Private：Greater control over systems, applications, and data
       - Hybrid: non-cloud services hosted on-premises directly interact with services hosted in either a public or a private cloud
+
+### Charpter 2: Azure Core Services
+  - Core Azure Architectural Components
+    - Geographies and Regions
+      - Geographies: Azure geographies generally align to specific countries or aligned to specific markets like Asia.
+      - Regions: Within each geography are Azure regions, A region is a grouping of data centers that interact to provide redundancy and availability for the services hosted within that region
+    - Availability Zones
+      - Zone services:
+      - Zone-redundant services:
+    - Resources and Resource Groups:
+      - Resource Groups: a logical container for one or more resources, Resources in a group can reside in various regions
+    - Azure Resource Manager (ARM): is not a tool or interface. Rather, as a service it functions as the broker between management tools like the Azure portal and resource providers
+  - Azure Subscriptions and Billing Scope
