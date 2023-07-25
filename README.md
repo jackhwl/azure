@@ -97,3 +97,44 @@
     - Azure Windows Virtual Desktop (WVD):
     - Functions: smallest compute service on Azure, serverless
   - Core Azure Storage
+    - Blob Storage: binary large object, inside container of a storage account. images, streaming, all types, log files, data store
+      - three Types: Block (4.7TB), Append, Page (8TB)
+    - Blob Storage Pricing Tiers:
+      - Hot access: lower access times + higher access cost + higher storage cost
+      - Cool access: higher access times + lower storage cost (higher access cost), data remains for at least 30 days
+      - Archive access: highest rehydrate the data from offline to storage, lowest storage cost
+    - Disk Storage: Managed vitual Disk attached to VM, easy to upgrade size and type
+      - Four disk types: HDD, Standard SSD, Premium SSD, Ultra Disk
+    - File Storage: Sharing, managed, resilient
+    - Archive:
+    - Storage Accounts: unique azure namespace
+      - General-purpose v1:
+      - General-purpose v2:
+      - BlockBlobStorage:
+      - FileStorage:
+      - BlobStorage:
+    - Storage Redundancy: three copies in primary region, three copies in secondary region
+      - different location scopes: single zone, multiple zones, multiple regions
+      - Single Region
+        - Locally Redundant Storage (LRS) 3 copies in one Zone
+        - Zone-Redundant Storage (ZRS) 3 copies in 3 Zones
+      - Multi Region
+        - Geo-Redundant Storage (GRS) 3 copies in one Zone in primary region, 3 copies in one Zone in secondary region
+        - Geo-Zone-Redundant Storage (GZRS) 3 copies in 3 Zones in primary region, 3 copies in one Zone in secondary region
+    - Moving Data
+      - AzCopy: command-line utility
+        - transfer blobs and Azure Files
+        - useful for scripting data transfers
+      - Azure Storage Explorer: GUI interface with all types of files
+      - Azure File Sync: Sync Azure Files with on-premises file servers
+    - Additonal Migration Options:
+      - Azure Data Box: offline data transfer to/from Azure, encrypted, rugged, ship data box to/from Azure, initial bulk data migration, disaster recovery
+      - Azure Migrate: 
+    - Premium performance options:
+      - Standard
+      - Premium: 
+        - Block Blobs: LRS/ZRS
+        - Page Blobs: LRS
+        - File Shares: LRS/ZRS
+
+      
