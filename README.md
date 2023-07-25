@@ -62,10 +62,38 @@
     - Geographies and Regions
       - Geographies: Azure geographies generally align to specific countries or aligned to specific markets like Asia.
       - Regions: Within each geography are Azure regions, A region is a grouping of data centers that interact to provide redundancy and availability for the services hosted within that region
-    - Availability Zones
+        - location
+        - features
+        - price
+      - Paired Region: each region is paired, outage failover, if primary region has an outage you can failover to the secondary region
+    - Availability Zones: Physical Location, Independent, each region has a minimum of three zones
       - Zone services:
       - Zone-redundant services:
     - Resources and Resource Groups:
       - Resource Groups: a logical container for one or more resources, Resources in a group can reside in various regions
-    - Azure Resource Manager (ARM): is not a tool or interface. Rather, as a service it functions as the broker between management tools like the Azure portal and resource providers
+    - Azure Resource Manager (ARM): is the service that enables you to manage resources, serving as the deployment and management service for Azure, ARM is not a tool or interface. Rather, as a service it functions as the broker between management tools like the Azure portal and resource providers
   - Azure Subscriptions and Billing Scope
+    - Azure Subscriptions
+    - Azure Billing Accounts:
+      - Microsoft Online Services Program
+      - Enterprise agreement (EA)
+      - Microsoft Customer Agreement (MCA)
+    - Billing Scope
+    - Azure Tenants: a specific instance of Azure Active Directory (AAD) that contains accounts and groups. a tenant is a group of users
+  - Core Azure Services
+    - Virtual Machines:
+      - pricing: calculated hourly
+    - Scale Sets: a group of identical, load balanced VMs, auto scaling, large scale (1000), taking VMs to the next level.
+    - Availability Sets
+      - update domains: is a logical group of hardware that undergoes maintenance activities or reboot events at the same time
+      - fault domains: is a logical grouping of hardware that shares a power source and network switch, similar to a physical rack in a data center
+    - Azure App Service: a PaaS offering on Azure, fully managed platform: Servers, Network, Storage, an easy way to host and manage your web application
+      - Web Apps
+      - Web Apps for Containers
+      - API Apps
+    - Azure Container Instances (ACI): is the Azure service that gives you the ability to create and deploy containerized applications.
+    - Azure Kubernetes Service (AKS): is a container orchestration service that monitors container health, provides container scalability, and enables resource sharing among containers in a Kubernetes cluster.
+      - Azure Container Registry (ACR)
+    - Azure Windows Virtual Desktop (WVD):
+    - Functions: smallest compute service on Azure, serverless
+  - Core Azure Storage
