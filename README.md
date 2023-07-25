@@ -105,7 +105,7 @@
       - Archive access: highest rehydrate the data from offline to storage, lowest storage cost
     - Disk Storage: Managed vitual Disk attached to VM, easy to upgrade size and type
       - Four disk types: HDD, Standard SSD, Premium SSD, Ultra Disk
-    - File Storage: Sharing, managed, resilient
+    - File Storage: Sharing, managed, resilient, store files independently of a logical disk
     - Archive:
     - Storage Accounts: unique azure namespace
       - General-purpose v1:
@@ -136,5 +136,11 @@
         - Block Blobs: LRS/ZRS
         - Page Blobs: LRS
         - File Shares: LRS/ZRS
-
-      
+  - Core Data Services
+    - Structured and Unstructured Data
+    - Azure SQL Database: PaaS
+    - SQL Managed Instance: its integration with the Azure Data Migration Service, enabling organizations to easily move existing on-premises SQL instances into Azure Managed Instance
+    - Cosmos DB: globally distributed DB. Scale to infinite performance and size, can be costly!
+    - Azure Database for MySQL
+    - Azure Database for PostgreSQL
+    - Azure Database Migration Service
