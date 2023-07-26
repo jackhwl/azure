@@ -144,3 +144,23 @@
     - Azure Database for MySQL
     - Azure Database for PostgreSQL
     - Azure Database Migration Service
+
+### Charpter 3: Azure Core Networking Services
+  - Networking Concepts
+    - Client-Server and Serverless Computing
+    - Network Addressing
+    - Domain Name System
+    - Routing
+  - Virtual Networks (VNet): a VNet belongs to a single region. every resource on the VNet must be in the same region too; a VNet belongs to just one subscription. VNet peering is a fundamental part of using vitual networks.
+  - Load Balancers: based on IP and port
+    - Azure Front Door: for global routing
+    - Azure Traffic Manager: routes traffic to the data center that is geographically closerst to the user.
+    - Azure Application Gateway: for regional routing, performs URL-based routing, app layer load-balancing service,
+    - Azure Load Balancer: a transport layer service, for non-HTTP(S) traffic based on the IP (DB VMS)
+  - VPN Gateway
+    - Azure VPN Gateway
+    - ExpressRoute: direct link between on-premises and Azure.
+  - Application Gateway: is a higher level load balancer
+    - works on the HTTP Request of the traffic, instread of the IP address and port
+    - traffic from a specific web address can go to a specific machine
+  - Content Delivery Networks (CDN)
