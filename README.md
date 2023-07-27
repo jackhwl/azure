@@ -73,7 +73,7 @@
       - Resource Groups: a logical container for one or more resources, Resources in a group can reside in various regions
     - Azure Resource Manager (ARM): is the service that enables you to manage resources, serving as the deployment and management service for Azure, ARM is not a tool or interface. Rather, as a service it functions as the broker between management tools like the Azure portal and resource providers
   - Azure Subscriptions and Billing Scope
-    - Azure Subscriptions: billing entity
+    - Azure Subscriptions: billing entity that controls the cost of resources and services associated with it.
     - Azure Billing Accounts:
       - Microsoft Online Services Program
       - Enterprise agreement (EA)
@@ -195,8 +195,14 @@
         - Scope: where
     - Authentication and Authorization
     - Azure Multifactor Authentication (MFA)
-    - Zero Trust Concepts: all users assumed untrustworthy unless proven otherwise
-    - Conditional Access
+    - Zero Trust Concepts: all users assumed untrustworthy unless proven otherwise, Trusted Identities, not location
+    - Conditional Access: authentication protections beyond username/password, if/then policy to grant access
+    - Passwordless Authentication: replace password with something you have/know/are, to increase convenience while staying secure
+      - Microsoft Authenticator App
+      - Windows Hello
+      - FIDO2 Security Key
+    - External Guest Access
+    - Azure Active Directory Domain Services
     - Single Sign-On (SSO)
   - Security Tools and Features
 
