@@ -73,13 +73,13 @@
       - Resource Groups: a logical container for one or more resources, Resources in a group can reside in various regions
     - Azure Resource Manager (ARM): is the service that enables you to manage resources, serving as the deployment and management service for Azure, ARM is not a tool or interface. Rather, as a service it functions as the broker between management tools like the Azure portal and resource providers
   - Azure Subscriptions and Billing Scope
-    - Azure Subscriptions
+    - Azure Subscriptions: billing entity
     - Azure Billing Accounts:
       - Microsoft Online Services Program
       - Enterprise agreement (EA)
       - Microsoft Customer Agreement (MCA)
     - Billing Scope
-    - Azure Tenants: a specific instance of Azure Active Directory (AAD) that contains accounts and groups. a tenant is a group of users
+    - Azure Tenants: is a dedicated instance of Azure AD. It represents your organization in Azure. a specific instance of Azure Active Directory (AAD) that contains accounts and groups. a tenant is a group of users.
   - Core Azure Services
     - Virtual Machines:
       - pricing: calculated hourly
@@ -164,3 +164,39 @@
     - works on the HTTP Request of the traffic, instread of the IP address and port
     - traffic from a specific web address can go to a specific machine
   - Content Delivery Networks (CDN)
+
+### Charpter 4: Security, Compliance, Privacy, and Trust
+  - Network Security
+    - Defense in Depth
+      - Physical security
+      - Identity and access
+      - Perimeter:
+      - Network
+      - Compute
+      - Application
+      - Data
+    - Azure Firewall
+      - NAT rules
+      - Network rules
+      - Application rules
+    - Web Application Firewall
+    - Network Security Groups (NSGs)
+    - Application Security Groups (ASG)
+    - User-Defined Routes (UDR)
+    - Azure DDoS Protection
+      - Volumetric attacks
+      - Protocol attacks
+      - Resource layer attacks
+  - Authentication and Authorization
+    - Azure Active Directory (Azure AD)
+      - role-based access control (RBAC): the security principal describes who or what has a set of permissions, the role specifies the permissions that security principal has, and the scope defines where the security principal can use those permissions.
+        - Security principal: who, user or group 
+        - Role: what (read, write, delete)
+        - Scope: where
+    - Authentication and Authorization
+    - Azure Multifactor Authentication (MFA)
+    - Zero Trust Concepts: all users assumed untrustworthy unless proven otherwise
+    - Conditional Access
+    - Single Sign-On (SSO)
+  - Security Tools and Features
+
