@@ -205,4 +205,15 @@
     - Azure Active Directory Domain Services
     - Single Sign-On (SSO)
   - Security Tools and Features
-
+    - Azure Security Center
+    - Azure Key Vault
+    - Azure Information Protection (AIP)
+    - Azure Advanced Threat Protection (ATP)
+      - Reconnaissance attacks
+      - Compromised credentials
+      - Lateral account movement
+      - Domain dominance
+    - Azure Sentinel
+    - Azure Dedicated Hosts
+  - Azure Governance Methodologies
+    
