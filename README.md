@@ -169,24 +169,28 @@
   - Network Security
     - Defense in Depth
       - Physical security
-      - Identity and access
-      - Perimeter:
-      - Network
-      - Compute
-      - Application
-      - Data
-    - Azure Firewall
-      - NAT rules
-      - Network rules
-      - Application rules
-    - Web Application Firewall
-    - Network Security Groups (NSGs)
-    - Application Security Groups (ASG)
-    - User-Defined Routes (UDR)
-    - Azure DDoS Protection
-      - Volumetric attacks
-      - Protocol attacks
-      - Resource layer attacks
+        - Identity and access
+          - Perimeter:
+            - Network
+              - Compute
+                - Gateways and Firewalls (Application)
+                  - Data
+    - Securing Network Connectivity
+      - Azure Firewall
+        - NAT rules
+        - Network rules
+        - Application rules
+      - Web Application Firewall
+      - Network Security Groups (NSGs)
+      - Application Security Groups (ASG)
+      - public endpoint: private endpoints enable private access to PaaS services. 
+        - service endpoints
+        - private endpoints
+      - User-Defined Routes (UDR)
+      - Azure DDoS Protection
+        - Volumetric attacks
+        - Protocol attacks
+        - Resource layer attacks
   - Authentication and Authorization
     - Azure Active Directory (Azure AD)
       - role-based access control (RBAC): the security principal describes who or what has a set of permissions, the role specifies the permissions that security principal has, and the scope defines where the security principal can use those permissions.
@@ -205,15 +209,15 @@
     - Azure Active Directory Domain Services
     - Single Sign-On (SSO)
   - Security Tools and Features
-    - Azure Security Center
-    - Azure Key Vault
-    - Azure Information Protection (AIP)
-    - Azure Advanced Threat Protection (ATP)
+    - Microsoft Defender for Cloud (Azure Security Center): monitor security hygiene for Vms. Define policies to protect your resources better and respond to incidents.
+    - Azure Key Vault: A secure way to share access to applications and resources with third parties without ever revealing any credentials.
+    - Azure Information Protection (AIP): secure documents, emails and data outside of the company network. Share files and data inside and outside of Azure and still maintain control over that data. You can control who views, edits, prints, and more.
+    - Microsoft Defender for Identity [Azure Advanced Threat Protection (ATP)] your secure and manage users of your organization. Monitor users' behavior, create a baseline of this behavior, and report on any anomalies from it.
       - Reconnaissance attacks
       - Compromised credentials
       - Lateral account movement
       - Domain dominance
-    - Azure Sentinel
-    - Azure Dedicated Hosts
+    - Azure Sentinel: a security information and event management (SIEM) tool, collect, aggregate, analyze and present security issues automatically for you to take action.
+    - Azure Dedicated Hosts: hardware control, yours and yours alone
   - Azure Governance Methodologies
-    
+
