@@ -237,3 +237,14 @@
       - Blueprint Lifecycle
       - Blueprint Roles
     - Microsoft Cloud Adoption Framework for Azure
+  - Azure Monitoring and Reporting Options
+    - Azure Monitor
+      - metrics: are numeric values that describe how a resource is performing and/or what it is consuming.
+      - logs: contain detailed information about events that happen within your Azure environment
+      - Log Analytics enables you to view data from multiple sources through queries that you create or that are created by services for you, such as On-Demand Assessments (available through Microsoft’s Unified Support offering).
+      - Application Insights enables developers to send telemetry data about the applications they develop to Azure
+    - Azure Service Health
+      - Azure Status
+      - Service Health
+      - Resource Health:
+    - Azure Advisor
