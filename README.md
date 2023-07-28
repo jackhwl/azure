@@ -167,7 +167,7 @@
 
 ### Charpter 4: Security, Compliance, Privacy, and Trust
   - Network Security
-    - Defense in Depth
+    - Defense in Depth: 6 layer protect
       - Physical security
         - Identity and access
           - Perimeter:
@@ -184,8 +184,8 @@
       - Network Security Groups (NSGs)
       - Application Security Groups (ASG)
       - public endpoint: private endpoints enable private access to PaaS services. 
-        - service endpoints
-        - private endpoints
+        - service endpoints: Good
+        - private endpoints: Better
       - User-Defined Routes (UDR)
       - Azure DDoS Protection
         - Volumetric attacks
@@ -195,8 +195,8 @@
     - Azure Active Directory (Azure AD)
       - role-based access control (RBAC): the security principal describes who or what has a set of permissions, the role specifies the permissions that security principal has, and the scope defines where the security principal can use those permissions.
         - Security principal: who, user or group 
-        - Role: what (read, write, delete)
-        - Scope: where
+        - Role: what kind of permissions (read, write, delete)
+        - Scope: used at where
     - Authentication and Authorization
     - Azure Multifactor Authentication (MFA)
     - Zero Trust Concepts: all users assumed untrustworthy unless proven otherwise, Trusted Identities, not location
@@ -209,7 +209,7 @@
     - Azure Active Directory Domain Services
     - Single Sign-On (SSO)
   - Security Tools and Features
-    - Microsoft Defender for Cloud (Azure Security Center): monitor security hygiene for Vms. Define policies to protect your resources better and respond to incidents.
+    - Microsoft Defender for Cloud (Azure Security Center): monitor security hygiene for VMs. Define policies to protect your resources better and respond to incidents.
     - Azure Key Vault: A secure way to share access to applications and resources with third parties without ever revealing any credentials.
     - Azure Information Protection (AIP): secure documents, emails and data outside of the company network. Share files and data inside and outside of Azure and still maintain control over that data. You can control who views, edits, prints, and more.
     - Microsoft Defender for Identity [Azure Advanced Threat Protection (ATP)] your secure and manage users of your organization. Monitor users' behavior, create a baseline of this behavior, and report on any anomalies from it.
@@ -219,5 +219,21 @@
       - Domain dominance
     - Azure Sentinel: a security information and event management (SIEM) tool, collect, aggregate, analyze and present security issues automatically for you to take action.
     - Azure Dedicated Hosts: hardware control, yours and yours alone
-  - Azure Governance Methodologies
-
+  - Azure Governance Methodologies:
+    - Azure Policies
+    - Azure Initiatives: container of policies
+    - Role-Based Access Control: is a primary authorization mechanism
+      - Security principal: specifies the individual user, group or managed identity to which the role assignment will apply
+      - Role definition: a collection of permissions (read, write, delete)
+      - Scope: specifies the resources to which the role assignment applies
+    - Understanding Roles
+      - Owner
+      - Contributor
+      - Reader
+      - User Access Administrator
+    - Using RBAC with Management Scopes
+    - Resource Locks: (ReadOnly or a CanNotDelete) Resource locks are absolute in the sense that RBAC does not override a lock. Locks apply only at the resource management level, not at their functional levels.
+    - Azure Blueprints
+      - Blueprint Lifecycle
+      - Blueprint Roles
+    - Microsoft Cloud Adoption Framework for Azure
