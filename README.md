@@ -220,9 +220,9 @@
     - Azure Sentinel: a security information and event management (SIEM) tool, collect, aggregate, analyze and present security issues automatically for you to take action.
     - Azure Dedicated Hosts: hardware control, yours and yours alone
   - Azure Governance Methodologies:
-    - Azure Policies
+    - **Azure Policies**: ensures that policies applied to resources are compliant, a policy is a set of rules to ensure compliant resources.
     - Azure Initiatives: container of policies
-    - Role-Based Access Control: is a primary authorization mechanism
+    - **Role-Based Access Control**: is a primary authorization mechanism ensures user compliance through assigning a role to a user. A role is a combination of security principal, role definition and scope.
       - Security principal: specifies the individual user, group or managed identity to which the role assignment will apply
       - Role definition: a collection of permissions (read, write, delete)
       - Scope: specifies the resources to which the role assignment applies
@@ -232,19 +232,38 @@
       - Reader
       - User Access Administrator
     - Using RBAC with Management Scopes
-    - Resource Locks: (ReadOnly or a CanNotDelete) Resource locks are absolute in the sense that RBAC does not override a lock. Locks apply only at the resource management level, not at their functional levels.
-    - Azure Blueprints
+    - **Resource Locks**: Locks make sure that subscriptions, resource groups or resources are either not modified or not deleted. (ReadOnly or a CanNotDelete) Resource locks are absolute in the sense that RBAC does not override a lock. Locks apply only at the resource management level, not at their functional levels.
+    - **Azure Blueprints**: are templates for creating standard Azure environments / resources
       - Blueprint Lifecycle
       - Blueprint Roles
     - Microsoft Cloud Adoption Framework for Azure
   - Azure Monitoring and Reporting Options
-    - Azure Monitor
+    - Azure Monitor: collect telemetry data from resources which you can analyze. maximize performance and availability and identify issues, improve your Azure experience.
       - metrics: are numeric values that describe how a resource is performing and/or what it is consuming.
       - logs: contain detailed information about events that happen within your Azure environment
-      - Log Analytics enables you to view data from multiple sources through queries that you create or that are created by services for you, such as On-Demand Assessments (available through Microsoft’s Unified Support offering).
-      - Application Insights enables developers to send telemetry data about the applications they develop to Azure
-    - Azure Service Health
+      - **Log Analytics**: enables you to view data from multiple sources through queries that you create or that are created by services for you, such as On-Demand Assessments (available through Microsoft’s Unified Support offering).
+      - **Application Insights**: enables developers to send telemetry data about the applications they develop to Azure, web apps only
+      - **Azure Monitor Alerts**:
+    - Azure Service Health: free, notifies you about any planned and unplanned incidents on the Azure platform.
       - Azure Status
       - Service Health
       - Resource Health:
-    - Azure Advisor
+    - Azure Advisor for security assistance is part of the security center.
+  - Compliance and Data Protection Standards: Compliance is not negotiable, comply with GDPR and adhere to ISO and NIST standards. Use compliance manager to manage compliance. Azure Government and China regions.
+    - Industry Compliance Standards and Terms
+      - Health Insurance Portability and Accountability Act (HIPAA)
+      - International Organization for Standards (ISO)
+      - International Electrotechnical Commission (IEC):
+      - National Institute of Standards and Technology (NIST)
+      - General Data Protection Regulation (GDPR):
+    - Privacy: Core part of Azure and its products. Azure information protection, Azure policy, and the GDPR guide are all privacy tools.
+    - Microsoft Privacy Statement
+    - Online Service Terms
+    - Data Protection Addendum
+    - Trust:
+      - Trust Center: is where you can find out what microsoft does to keep your trust
+      - Service Trust Portal: is where you can find audit reports and certificates awarded to Azure.
+    - Azure Compliance Manager: provides recommendations, tasks to assign team members, a compliance score, secure document storage and reports
+    - Azure Government Cloud: provides dedicated datacenters to US Government bodies. Compliant with US federal, state and local requirements.
+    - Azure China region contains all data and datacenters within China. Complies with all applicable Chinese regulations.
+    - Azure Arc: centralized governance and management for on-premises and multi-cloud computing resources. Manage non-Azure resources as if they were in Azure. Extend Azure cloud management and services to non-Azure locations.
