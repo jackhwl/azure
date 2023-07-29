@@ -267,3 +267,41 @@
     - Azure Government Cloud: provides dedicated datacenters to US Government bodies. Compliant with US federal, state and local requirements.
     - Azure China region contains all data and datacenters within China. Complies with all applicable Chinese regulations.
     - Azure Arc: centralized governance and management for on-premises and multi-cloud computing resources. Manage non-Azure resources as if they were in Azure. Extend Azure cloud management and services to non-Azure locations.
+
+
+    ### Charpter 5: Azure Solutions
+    - Internet of Things (IoT)
+      - Azure IoT Hub: PaaS
+      - Azure IoT Central: SaaS
+      - Azure Sphere
+        - Azure Sphere micro-controller units (MCUs)
+        - Management software
+        - Azure Sphere Security Service (AS3):
+    - Big Data 
+      - Data Lake Analytics
+      - HDInsights:
+        - Apache Hadoop, Spark and Kafka
+      - Azure Databricks: 
+        - based on Apache Spark, a distributed cluster-computing framework
+        - Run and process a dataset on many computers simultaneously
+        - Databricks provides all the computing power 
+        - Integrates with other Azure Storage services
+      - Azure Synapse Analytics: (Azure's data warehouse offering)
+    - Artificial Intelligence
+      - Deep learning
+      - Machine learning
+      - Azure Machine Learning
+      - Azure Cognitive Services
+        - Language:
+        - Speech:
+        - Vision
+        - Decision
+      - Azure Bot Service: PaaS
+    - Serverless Computing
+      - Azure Functions
+      - Azure Logic Apps: a quick and simple way to integrate systems and applications inside and outside of Azure
+      - Event Grid: a routing service for sending and receiving events between applications
+    - DevOps: the work between development and production
+      - Azure DevOps Services
+      - GitHub and GitHub Actions
+      - Azure DevTest Labs
