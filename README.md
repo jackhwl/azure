@@ -209,7 +209,7 @@
     - Azure Active Directory Domain Services
     - Single Sign-On (SSO)
   - Security Tools and Features
-    - Microsoft Defender for Cloud (Azure Security Center): monitor security hygiene for VMs. Define policies to protect your resources better and respond to incidents.
+    - Microsoft Defender for Cloud (Azure Security Center): provides visibility of your security posture across all of your services, both on Azure and on-premises. monitor security hygiene for VMs. Define policies to protect your resources better and respond to incidents.
     - Azure Key Vault: A secure way to share access to applications and resources with third parties without ever revealing any credentials.
     - Azure Information Protection (AIP): secure documents, emails and data outside of the company network. Share files and data inside and outside of Azure and still maintain control over that data. You can control who views, edits, prints, and more.
     - Microsoft Defender for Identity [Azure Advanced Threat Protection (ATP)] your secure and manage users of your organization. Monitor users' behavior, create a baseline of this behavior, and report on any anomalies from it.
@@ -217,7 +217,7 @@
       - Compromised credentials
       - Lateral account movement
       - Domain dominance
-    - Azure Sentinel: a security information and event management (SIEM) tool, collect, aggregate, analyze and present security issues automatically for you to take action.
+    - **Azure Sentinel**: a security information and event management (SIEM) tool, collect, aggregate, analyze and present security issues automatically for you to take action.
     - Azure Dedicated Hosts: hardware control, yours and yours alone
   - Azure Governance Methodologies:
     - **Azure Policies**: ensures that policies applied to resources are compliant, a policy is a set of rules to ensure compliant resources.
@@ -237,18 +237,30 @@
       - Blueprint Lifecycle
       - Blueprint Roles
     - Microsoft Cloud Adoption Framework for Azure
-  - Azure Monitoring and Reporting Options
-    - Azure Monitor: collect telemetry data from resources which you can analyze. maximize performance and availability and identify issues, improve your Azure experience.
+  - Azure Monitoring and Reporting Services (Options)
+    -               : collect telemetry data from resources which you can analyze. maximize performance and availability and identify issues, improve your Azure experience.
       - metrics: are numeric values that describe how a resource is performing and/or what it is consuming.
       - logs: contain detailed information about events that happen within your Azure environment
       - **Log Analytics**: enables you to view data from multiple sources through queries that you create or that are created by services for you, such as On-Demand Assessments (available through Microsoft’s Unified Support offering).
       - **Application Insights**: enables developers to send telemetry data about the applications they develop to Azure, web apps only
       - **Azure Monitor Alerts**:
-    - Azure Service Health: free, notifies you about any planned and unplanned incidents on the Azure platform.
+    - Azure Service Health: what's happening now global of azure service. free, notifies you about any planned and unplanned incidents on the Azure platform.Azure Service Health provides a personalized view of the health of the Azure services, regions, and resources you rely on.
       - Azure Status
       - Service Health
       - Resource Health:
-    - Azure Advisor for security assistance is part of the security center.
+    - Azure Advisor: Azure Advisor evaluates your Azure resources and makes recommendations
+                      to help improve reliability, security, and performance, achieve operational
+                      excellence, and reduce costs. Advisor is designed to help you save time on
+                      cloud optimization. The recommendation service includes suggested actions
+                      you can take right away, postpone, or dismiss.
+                      The recommendations are available via the Azure portal and the API, and you
+                      can set up notifications to alert you to new recommendations.
+        for security assistance is part of the security center. provides a web-based report intended to help you optimize your Azure environment.
+      - Reliability
+      - Security
+      - Performance
+      - Cost
+      - Operational Excellence
   - Compliance and Data Protection Standards: Compliance is not negotiable, comply with GDPR and adhere to ISO and NIST standards. Use compliance manager to manage compliance. Azure Government and China regions.
     - Industry Compliance Standards and Terms
       - Health Insurance Portability and Accountability Act (HIPAA)
@@ -257,12 +269,13 @@
       - National Institute of Standards and Technology (NIST)
       - General Data Protection Regulation (GDPR):
     - Privacy: Core part of Azure and its products. Azure information protection, Azure policy, and the GDPR guide are all privacy tools.
-    - Microsoft Privacy Statement
+    - Microsoft Privacy Statement: provides trust in how Microsoft collects, protects, and uses customer data.
     - Online Service Terms
     - Data Protection Addendum
     - Trust:
       - Trust Center: is where you can find out what microsoft does to keep your trust
       - Service Trust Portal: is where you can find audit reports and certificates awarded to Azure.
+    - Azure Compliance documentation: includes detailed information about legal and regulatory standards and compliance on Azure
     - Azure Compliance Manager: provides recommendations, tasks to assign team members, a compliance score, secure document storage and reports
     - Azure Government Cloud: provides dedicated datacenters to US Government bodies. Compliant with US federal, state and local requirements.
     - Azure China region contains all data and datacenters within China. Complies with all applicable Chinese regulations.
