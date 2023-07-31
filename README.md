@@ -57,7 +57,7 @@
       - Private：Greater control over systems, applications, and data
       - Hybrid: non-cloud services hosted on-premises directly interact with services hosted in either a public or a private cloud
 
-### Charpter 2: Azure Core Services
+### Chapter 2: Azure Core Services
   - Core Azure Architectural Components
     - Geographies and Regions
       - Geographies: Azure geographies generally align to specific countries or aligned to specific markets like Asia.
@@ -145,7 +145,7 @@
     - Azure Database for PostgreSQL
     - Azure Database Migration Service
 
-### Charpter 3: Azure Core Networking Services
+### Chapter 3: Azure Core Networking Services
   - Networking Concepts
     - Client-Server and Serverless Computing
     - Network Addressing
@@ -165,7 +165,7 @@
     - traffic from a specific web address can go to a specific machine
   - Content Delivery Networks (CDN)
 
-### Charpter 4: Security, Compliance, Privacy, and Trust
+### Chapter 4: Security, Compliance, Privacy, and Trust
   - Network Security
     - Defense in Depth: 6 layer protect
       - Physical security
@@ -269,7 +269,7 @@
     - Azure Arc: centralized governance and management for on-premises and multi-cloud computing resources. Manage non-Azure resources as if they were in Azure. Extend Azure cloud management and services to non-Azure locations.
 
 
-    ### Charpter 5: Azure Solutions
+    ### Chapter 5: Azure Solutions
     - Internet of Things (IoT)
       - Azure IoT Hub: PaaS
       - Azure IoT Central: SaaS
@@ -305,3 +305,36 @@
       - Azure DevOps Services
       - GitHub and GitHub Actions
       - Azure DevTest Labs
+
+
+### Chapter 6: Azure Pricing, Service Levels, and Lifecycle
+- Purchasing Azure Services
+  - Azure Subscriptions
+  - Purchasing Services
+  - Factors Affecting Cost
+  - Billing Zones
+- Planning and Managing Azure Costs
+  - TCO Calculator: estimate total savings over a period of time by using Azure
+  - Pricing Calculator
+  - Managing and Minimizing Azure Cost, best practices
+    - Estimating Costs
+    - Monitoring Consumption with Azure Advisor
+    - Implementing Spending Limits
+    - Managing Subscription Limits (Quotas)
+    - Prepaying with Azure Reservations
+    - Reserved Capacity
+    - Azure Hybrid Benefit
+    - Spot Pricing
+- Service Level Agreements (SLA): A contract between you and Azure documenting Microsoft's commitment for uptime and connectivity.
+  - Composite SLAs
+  - Availability Zones
+- Service Lifecycles: 
+  - Preview: (Private & Public)
+  - General Availability
+- Plans: Basic, developer, standard, professional direct, and premier tiers. The more you pay the more benefits and lower response times.
+- Tickets: A unique reference for a support issue. Create tickets through the Azure Portal.
+- Channels: Use the Azure documentation, Azure forums and social media accounts to get free support from Microsoft and the community.
+- Azure on Q&A Knowlege Center: A collection of the most common questions. Search the knowledge center and find a lot of answers.
+
+
+  
