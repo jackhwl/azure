@@ -34,3 +34,4 @@
   - Inclusiveness
   - Transparency
   - Accountability
+## Knowledge check
