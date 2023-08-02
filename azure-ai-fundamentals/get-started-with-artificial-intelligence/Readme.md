@@ -28,3 +28,9 @@
   - Users must trust a complex system
   - Who's liable for AI-driven decisions?
 ## Understand Responsible AI
+  - Fairness
+  - Reliability and safety
+  - Privacy and security
+  - Inclusiveness
+  - Transparency
+  - Accountability
