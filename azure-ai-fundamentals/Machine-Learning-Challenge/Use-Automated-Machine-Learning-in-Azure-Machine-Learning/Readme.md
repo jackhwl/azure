@@ -16,3 +16,12 @@
     - Compute Clusters
     - Inference Clusters
     - Attached Compute
+## What is Azure Automated Machine Learning?
+## Understand the AutoML process
+  - Prepare data
+  - Train model
+    - Classification
+    - Regression
+    - Time series forecasting
+  - Evaluate performance
+  - Deploy a predictive service
