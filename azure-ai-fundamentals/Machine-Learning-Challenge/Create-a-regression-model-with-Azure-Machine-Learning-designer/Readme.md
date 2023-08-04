@@ -29,3 +29,10 @@
   - Deploy a predictive service
     - Inference pipeline
     - Deployment
+## Exercise - Explore regression with Azure Machine Learning designer
+  - [Explore regression with Azure Machine Learning Designer](https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/02a-create-regression-model.html)
+## Summary: In this module, you learned how to:
+  - Identify regression machine learning scenarios.
+  - Use Azure Machine Learning designer to train a regression model.
+  - Use a regression model for inferencing.
+  - Deploy a regression model as a service.
