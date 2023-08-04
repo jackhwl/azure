@@ -11,3 +11,8 @@
     - Compute Clusters
     - Inference Clusters
     - Attached Compute
+## What is Azure Machine Learning designer?
+  - Pipelines
+  - Components
+  - Datasets
+  - Azure Machine Learning Jobs
