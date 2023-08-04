@@ -27,6 +27,10 @@
   - Deploy a predictive service
 ## Exercise - Explore Automated Machine Learning in Azure ML
   - [Explore Automated Machine Learning in Azure ML](https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/02-module-02.html)
+  - Accuracy: In other words, what proportion of diabetes predictions did the model get right?
+  - Precision: In other words, out of all the patients that the model predicted as having diabetes, the percentage of time the model is correct.
+  - Recall: In other words, out of all the patients who actually have diabetes, how many diabetic cases did the model identify correctly?
+
 ## Summary: In this module, you learned how to:
   - Identify the machine learning process.
   - Understand Azure Machine Learning capabilities.
