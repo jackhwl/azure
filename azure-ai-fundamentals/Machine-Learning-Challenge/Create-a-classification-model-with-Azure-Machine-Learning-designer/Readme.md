@@ -31,3 +31,10 @@
   - Deploy a predictive service
     - Inference pipeline
     - Deployment
+## Exercise - Explore classification with Azure Machine Learning designer
+  - [Explore classification with Azure Machine Learning Designer](https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/02b-create-classification-model.html)
+## Summary: In this module, you learned how to:
+  - Identify classification machine learning scenarios.
+  - Use Azure Machine Learning designer to train a classification model.
+  - Use a classification model for inferencing.
+  - Deploy and test a classification model.
