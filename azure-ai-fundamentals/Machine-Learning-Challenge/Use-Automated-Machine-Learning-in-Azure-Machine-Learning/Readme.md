@@ -25,3 +25,9 @@
     - Time series forecasting
   - Evaluate performance
   - Deploy a predictive service
+## Exercise - Explore Automated Machine Learning in Azure ML
+  - [Explore Automated Machine Learning in Azure ML](https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/02-module-02.html)
+## Summary: In this module, you learned how to:
+  - Identify the machine learning process.
+  - Understand Azure Machine Learning capabilities.
+  - Use automated machine learning in Azure Machine Learning studio to train and deploy a predictive model
