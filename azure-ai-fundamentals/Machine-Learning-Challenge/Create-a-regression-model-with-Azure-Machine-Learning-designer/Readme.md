@@ -16,3 +16,16 @@
   - Components
   - Datasets
   - Azure Machine Learning Jobs
+## Understand steps for regression
+  - Prepare data
+  - Train model
+    - Regression
+  - Evaluate performance
+    - Mean Absolute Error (MAE)
+    - Root Mean Squared Error (RMSE)
+    - Relative Squared Error (RSE)
+    - Relative Absolute Error (RAE)
+    - Coefficient of Determination (R2)
+  - Deploy a predictive service
+    - Inference pipeline
+    - Deployment
