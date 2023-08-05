@@ -14,3 +14,8 @@ Regression is a supervised machine learning technique that is used to predict a 
     - Decision Forest Regression
     - Ensemble algorithms
 ## Exercise - Experiment with more powerful regression models
+## Improve models with hyperparameters
+  - Preprocessing data
+    - Scaling features
+    - Using categories as features
+## Exercise - Optimize and save models
