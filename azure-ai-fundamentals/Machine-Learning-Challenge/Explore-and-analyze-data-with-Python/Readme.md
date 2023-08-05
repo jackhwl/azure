@@ -19,3 +19,9 @@
 ## Visualize data
   - Representing data visually
 ## Exercise - Visualize data with Matplotlib
+  - Made graphs with Matplotlib.
+  - Learned how to customize these graphs.
+  - Calculated basic statistics, such as medians.
+  - Looked at the spread of data using box plots and histograms.
+  - Learned about samples versus populations.
+  - Estimated what the population of grades might look like from a sample of grades.
