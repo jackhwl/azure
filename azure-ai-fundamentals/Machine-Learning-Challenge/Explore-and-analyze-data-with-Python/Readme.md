@@ -25,3 +25,11 @@
   - Looked at the spread of data using box plots and histograms.
   - Learned about samples versus populations.
   - Estimated what the population of grades might look like from a sample of grades.
+## Examine real world data
+  - Real-world data issues
+    - Checking for missing values and badly recorded data.
+    - Considering removing obvious outliers.
+    - Examining what real-world factors might affect their analysis and determining if their dataset size is large enough to reduce the impact of these factors.
+    - Checking for biased raw data and considering their options to fix the bias, if found.
+## Exercise - Examine real world data
+## Summary

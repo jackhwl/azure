@@ -5,3 +5,4 @@
 5. Create a regression model with Azure Machine Learning designer
 6. Create a classification model with Azure Machine Learning designer
 7. Create a clustering model with Azure Machine Learning designer
+8. Explore and analyze data with Python
