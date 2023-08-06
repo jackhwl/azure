@@ -10,3 +10,6 @@
 ## Exercise - Train a deep neural network
 ## Convolutional neural networks
 ## Exercise - Train a convolutional neural network
+## Transfer learning
+  - How transfer learning works
+## Exercise - Use transfer learning
