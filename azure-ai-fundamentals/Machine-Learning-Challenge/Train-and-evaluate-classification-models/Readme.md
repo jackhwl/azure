@@ -9,3 +9,8 @@
 ## Exercise - Perform classification with alternative metrics
   - precision_score: Of all the patients the model predicted are diabetic, how many are actually diabetic?
   - recall_score: Of all the patients that are actually diabetic, how many did the model identify?
+## Create multiclass classification models
+  - Using Multiclass classification models
+    - One vs Rest (OVR)
+    - One vs One (OVO)
+## Exercise - Train and evaluate multiclass classification models

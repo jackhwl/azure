@@ -7,3 +7,4 @@
 7. Create a clustering model with Azure Machine Learning designer
 8. Explore and analyze data with Python
 9. Train and evaluate regression models
+10. Train and evaluate classification models
