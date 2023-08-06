@@ -7,3 +7,4 @@
     - Calculating loss
     - Optimizers
     - Learning rate
+## Exercise - Train a deep neural network
