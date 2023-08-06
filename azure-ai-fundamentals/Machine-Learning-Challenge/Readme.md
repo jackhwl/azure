@@ -8,3 +8,4 @@
 8. Explore and analyze data with Python
 9. Train and evaluate regression models
 10. Train and evaluate classification models
+11. Train and evaluate clustering models 
