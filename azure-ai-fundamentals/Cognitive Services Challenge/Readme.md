@@ -4,3 +4,4 @@
 4. Secure Cognitive Services
 5. Monitor Cognitive Services
 6. Deploy cognitive services in containers
+7. Introduction to Azure OpenAI Service
