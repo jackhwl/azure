@@ -5,3 +5,9 @@
   - Standardization lets parameters train at the same speed
   - Scaling helps with multiple features
 ## Exercise – Feature scaling
+## Test and training datasets
+  - What is overfitting?
+  - How can we avoid overfitting?
+  - What is a test dataset?
+  - OK, but what’s the point?
+  - What does that mean for cost functions?
