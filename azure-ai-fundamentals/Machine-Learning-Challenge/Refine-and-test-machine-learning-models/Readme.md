@@ -12,3 +12,9 @@
   - OK, but what’s the point?
   - What does that mean for cost functions?
 ## Exercise - Test and train datasets
+## Nuances of test sets
+  - Test sets can be misleading
+  - Test sets aren't free
+  - Train and test isn't the only approach
+    - The hold-out approach
+    - Statistical approaches
