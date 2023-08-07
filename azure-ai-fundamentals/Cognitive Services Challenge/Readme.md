@@ -2,3 +2,4 @@
 2. Introduction to GitHub Copilot
 3. Create and consume Cognitive Services
 4. Secure Cognitive Services
+5. Monitor Cognitive Services
