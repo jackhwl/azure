@@ -8,3 +8,5 @@
 8. Identify key phrases with AI Builder
 9. Use AI Builder in Power Automate
 10. Process receipts with AI Builder
+11. Get started with AI Builder
+12. Manage models in AI Builder
