@@ -11,3 +11,7 @@
 11. Train and evaluate clustering models 
 12. Train and evaluate deep learning models
 13. Refine and test machine learning models
+## Where to go next?
+  - Machine Learning Challenge
+  - Microsoft Azure AI Fundamentals: Get started with artificial intelligence
+  - Microsoft Azure Fundamentals: Describe cloud concepts
