@@ -10,3 +10,4 @@
 10. Process receipts with AI Builder
 11. Get started with AI Builder
 12. Manage models in AI Builder
+13. Create text with GPT in AI Builder
