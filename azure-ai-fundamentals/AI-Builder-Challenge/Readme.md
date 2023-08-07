@@ -15,3 +15,4 @@
 15. Manage topics in Power Virtual Agents
 16. Work with entities and variables in Power Virtual Agents
 17. Enhance Power Virtual Agents bots
+18. Build effective bots with Power Virtual Agents
