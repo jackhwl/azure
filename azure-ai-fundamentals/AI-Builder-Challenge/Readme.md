@@ -6,3 +6,4 @@
 6. Detect objects with AI Builder
 7. Identify the language of text with AI Builder
 8. Identify key phrases with AI Builder
+9. Use AI Builder in Power Automate
