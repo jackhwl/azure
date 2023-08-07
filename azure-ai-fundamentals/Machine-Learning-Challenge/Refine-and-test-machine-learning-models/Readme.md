@@ -11,3 +11,4 @@
   - What is a test dataset?
   - OK, but what’s the point?
   - What does that mean for cost functions?
+## Exercise - Test and train datasets
