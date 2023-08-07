@@ -12,3 +12,4 @@
 12. Manage models in AI Builder
 13. Create text with GPT in AI Builder
 14. Get started with Power Virtual Agents bots
+15. Manage topics in Power Virtual Agents
