@@ -18,3 +18,9 @@
   - Train and test isn't the only approach
     - The hold-out approach
     - Statistical approaches
+## Exercise – Test set nuances
+## Summary
+  - You can use different ratios when splitting your dataset into train and test sets.
+  - Different ratios yield different distributions of variables in the resulting train and test sets.
+  - When the train:test ratios are close, you're possibly leaving a lot of data out of the training set, and that can have a negative impact on your model's performance.
+  - When building models, it's important to test them using different train/test splits. Simply assigning more data to the train set doesn't always guarantee the best results.

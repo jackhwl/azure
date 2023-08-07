@@ -10,3 +10,4 @@
 10. Train and evaluate classification models
 11. Train and evaluate clustering models 
 12. Train and evaluate deep learning models
+13. Refine and test machine learning models
