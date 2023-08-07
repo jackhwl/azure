@@ -7,3 +7,4 @@
 7. Identify the language of text with AI Builder
 8. Identify key phrases with AI Builder
 9. Use AI Builder in Power Automate
+10. Process receipts with AI Builder
