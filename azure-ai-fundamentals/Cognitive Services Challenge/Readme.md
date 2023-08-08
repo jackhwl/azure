@@ -15,3 +15,4 @@
 15. Analyze images
 16. Analyze video
 17. Classify images
+18. Detect objects in images
