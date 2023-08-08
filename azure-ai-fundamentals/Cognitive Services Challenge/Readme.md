@@ -16,3 +16,4 @@
 16. Analyze video
 17. Classify images
 18. Detect objects in images
+19. Detect, analyze, and recognize faces
