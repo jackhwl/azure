@@ -8,3 +8,4 @@
 8. Build a Language Understanding model
 9. Publish and use a Language Understanding app
 10. Create speech-enabled apps with the Speech service
+11. Translate speech with the speech service
