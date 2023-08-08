@@ -6,3 +6,4 @@
 6. Deploy cognitive services in containers
 7. Introduction to Azure OpenAI Service
 8. Build a Language Understanding model
+9. Publish and use a Language Understanding app
