@@ -11,3 +11,4 @@
 11. Translate speech with the speech service
 12. Extract insights from text with the Language service
 13. Translate text with the Translator service
+14. Explore Cognitive Services for Vision (preview)
