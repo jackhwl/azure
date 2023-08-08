@@ -12,3 +12,4 @@
 12. Extract insights from text with the Language service
 13. Translate text with the Translator service
 14. Explore Cognitive Services for Vision (preview)
+15. Analyze images
