@@ -22,3 +22,5 @@
       - Detect image color schemes - specifically, identifying the dominant foreground, background, and overall colors in an image.
       - Generate thumbnails - creating small versions of images.
       - Moderate content - detecting images that contain adult content or depict violent, gory scenes.
+## Exercise - Explore Computer Vision
+## Summary
