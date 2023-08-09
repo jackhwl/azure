@@ -8,3 +8,4 @@
 8. Design a model deployment solution
 9. Design a machine learning operations solution
 10. Use an Azure Machine Learning job for automation
+11. Trigger Azure Machine Learning jobs with GitHub Actions
