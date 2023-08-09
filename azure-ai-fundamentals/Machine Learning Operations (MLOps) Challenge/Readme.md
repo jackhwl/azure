@@ -12,3 +12,4 @@
 12. Trigger GitHub Actions with feature-based development
 13. Work with linting and unit testing in GitHub Actions
 14. Work with environments in GitHub Actions
+15. Deploy a model with GitHub Actions
