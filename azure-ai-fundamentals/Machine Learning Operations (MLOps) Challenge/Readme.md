@@ -9,3 +9,4 @@
 9. Design a machine learning operations solution
 10. Use an Azure Machine Learning job for automation
 11. Trigger Azure Machine Learning jobs with GitHub Actions
+12. Trigger GitHub Actions with feature-based development
