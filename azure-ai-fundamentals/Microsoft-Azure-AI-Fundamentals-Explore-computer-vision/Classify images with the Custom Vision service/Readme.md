@@ -20,3 +20,4 @@
     - Model name
     - Prediction endpoint
     - Prediction key
+## Exercise - Explore image classification
