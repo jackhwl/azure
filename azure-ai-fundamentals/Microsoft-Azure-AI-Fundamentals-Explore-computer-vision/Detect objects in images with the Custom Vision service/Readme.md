@@ -18,3 +18,4 @@
     - Model name
     - Prediction endpoint
     - Prediction key
+## Exercise - Explore object detection
