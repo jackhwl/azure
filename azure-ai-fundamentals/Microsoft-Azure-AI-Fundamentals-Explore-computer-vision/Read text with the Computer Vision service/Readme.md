@@ -6,3 +6,8 @@
     - Cognitive Services
   - Use the Computer Vision service to read text
     - The Read API
+      - Pages 
+      - Lines
+      - Words
+## Exercise - Explore optical character recognition with the Read API
+## Summary
