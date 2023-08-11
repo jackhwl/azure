@@ -8,3 +8,5 @@
   - Responsible AI use
   - Azure resources for Face
   - Tips for more accurate results
+## Exercise - Explore face detection
+## Summary
