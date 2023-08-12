@@ -4,3 +4,4 @@
     - Form Recognizer
     - Cognitive Services
   - Using the pre-built receipt model
+## Exercise - Explore form recognition
