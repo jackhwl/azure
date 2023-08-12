@@ -17,3 +17,4 @@
     - Create a bot for your knowledge base
     - Extend and configure the bot
     - Connect channels
+## Exercise - Explore question answering
