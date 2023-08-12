@@ -14,3 +14,4 @@
     - Speech translation
     - Speech service language support
       - over 60 languages
+## Exercise - Explore translation
