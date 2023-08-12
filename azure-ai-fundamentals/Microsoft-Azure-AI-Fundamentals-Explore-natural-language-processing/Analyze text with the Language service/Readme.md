@@ -8,3 +8,4 @@
     - Indeterminate sentiment
   - Key phrase extraction
   - Entity recognition
+## Exercise - Explore text analytics
