@@ -16,3 +16,4 @@
       - Pattern.any
     - Training the model
   - Predicting
+## Exercise - Explore language understanding
