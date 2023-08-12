@@ -10,3 +10,4 @@
       - Batch transcription
     - The Text to speech API
   - Supported Languages
+## Exercise - Explore speech
