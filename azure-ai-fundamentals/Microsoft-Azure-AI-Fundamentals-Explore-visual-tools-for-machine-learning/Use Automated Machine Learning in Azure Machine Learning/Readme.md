@@ -26,3 +26,4 @@
     - metric normalized root mean squared error (NRMSE)
     - Residual Histogram
   - Deploy a predictive service: After you train a machine learning model, you can deploy the model as an application on a server or device so that others can use it.
+## Exercise - Explore Automated Machine Learning in Azure ML
