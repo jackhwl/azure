@@ -25,3 +25,5 @@
   - Deploy a predictive service
     - Inference pipeline
     - Deployment
+## Exercise - Explore regression with Azure Machine Learning designer
+  - without or light config: Linear Regression, Train Model, Score Model
