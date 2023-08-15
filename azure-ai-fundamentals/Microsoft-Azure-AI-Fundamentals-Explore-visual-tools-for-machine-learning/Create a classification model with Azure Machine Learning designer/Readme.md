@@ -15,3 +15,17 @@
   - Datasets
   - Azure Machine Learning Jobs
 ## Understand steps for classification
+  - Prepare data
+  - Train models
+  - Evaluate performance
+    - Confusion matrix
+      - Accuracy
+      - Precision
+      - Recall (True positive rate)
+      - F1 score
+    - Choosing a threshold
+    - ROC (receiver operating characteristic) courve and AUC metric
+    - AUC (area under the curve) metric， the larger the AUC (0,1) the better the model is.
+  - Deploy a predictive service
+    - Inference pipeline
+    - Deployment
