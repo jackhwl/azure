@@ -25,7 +25,8 @@
       - F1 score
     - Choosing a threshold
     - ROC (receiver operating characteristic) courve and AUC metric
-    - AUC (area under the curve) metric， the larger the AUC (0,1) the better the model is.
+    - AUC (area under the curve) metric， the larger the AUC (0,1) the better the model is. If the AUC for your model is higher than 0.5 for a binary classification model, then the model performs better than a random guess
   - Deploy a predictive service
     - Inference pipeline
     - Deployment
+## Exercise - Explore classification with Azure Machine Learning designer
