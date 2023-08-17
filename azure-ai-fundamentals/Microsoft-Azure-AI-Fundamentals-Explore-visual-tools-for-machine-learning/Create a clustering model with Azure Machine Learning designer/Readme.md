@@ -26,3 +26,4 @@
   - Deploy a predictive service
     - Inference pipeline
     - Deployment
+## Exercise - Explore clustering with Azure Machine Learning designer
