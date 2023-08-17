@@ -6,9 +6,11 @@
 ## What is Anomaly Detector?
   - Azure's Anomaly Detector service
 ## How Anomaly Detector works
+  upperBoundary = expectedValue + (100 - marginScale) * upperMargin
   - Data format
   - Data consistency recommendations
 ## When to use Anomaly Detector
   - Batch detection
     - Batch detection example
   - Real-time detection
+## Exercise - Explore Cognitive Services

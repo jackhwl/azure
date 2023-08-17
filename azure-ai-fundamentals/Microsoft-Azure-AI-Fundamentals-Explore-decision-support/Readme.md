@@ -1,0 +1,1 @@
+1. Microsoft Azure AI Fundamentals: Explore decision support
