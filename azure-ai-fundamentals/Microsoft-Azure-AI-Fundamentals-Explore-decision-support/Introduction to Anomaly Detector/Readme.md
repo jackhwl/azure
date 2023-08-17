@@ -9,3 +9,6 @@
   - Data format
   - Data consistency recommendations
 ## When to use Anomaly Detector
+  - Batch detection
+    - Batch detection example
+  - Real-time detection
