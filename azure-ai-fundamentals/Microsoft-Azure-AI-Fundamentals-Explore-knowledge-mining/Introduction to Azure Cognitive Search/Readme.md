@@ -16,3 +16,9 @@
 ## Understand indexes
   - Index schema
   - Index attributes
+## Use an indexer to build an index
+  * Push method 
+  * Pull method
+  - Use the pull method to load data with an indexer
+  - Data import monitoring and verification
+  - Making changes to an index
