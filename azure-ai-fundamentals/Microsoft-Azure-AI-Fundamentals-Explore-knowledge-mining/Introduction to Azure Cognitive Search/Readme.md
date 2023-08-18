@@ -13,3 +13,6 @@
   - Built in skills
     - Natural language processing skills
     - Image processing skills
+## Understand indexes
+  - Index schema
+  - Index attributes
