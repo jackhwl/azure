@@ -22,3 +22,4 @@
   - Use the pull method to load data with an indexer
   - Data import monitoring and verification
   - Making changes to an index
+## Persist enriched data in a knowledge store
