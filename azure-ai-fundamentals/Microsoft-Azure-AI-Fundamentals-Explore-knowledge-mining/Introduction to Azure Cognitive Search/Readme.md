@@ -23,3 +23,6 @@
   - Data import monitoring and verification
   - Making changes to an index
 ## Persist enriched data in a knowledge store
+  - Table projections are used to structure the extracted data in a relational schema for querying and visualization
+  - Object projections are JSON documents that represent each data entity
+  - File projections are used to store extracted images in JPG format
