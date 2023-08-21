@@ -26,3 +26,8 @@
   - Table projections are used to structure the extracted data in a relational schema for querying and visualization
   - Object projections are JSON documents that represent each data entity
   - File projections are used to store extracted images in JPG format
+## Create an index in the Azure portal
+  - Supported data sources:
+    - Cosmos DB (SQL API)
+    - Azure SQL (database, managed instance, and SQL Server on an Azure VM)
+    - Azure Storage (Blob Storage, Table Storage, ADLS Gen2)
