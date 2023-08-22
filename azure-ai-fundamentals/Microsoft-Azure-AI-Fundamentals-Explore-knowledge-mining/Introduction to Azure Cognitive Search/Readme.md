@@ -31,3 +31,9 @@
     - Cosmos DB (SQL API)
     - Azure SQL (database, managed instance, and SQL Server on an Azure VM)
     - Azure Storage (Blob Storage, Table Storage, ADLS Gen2)
+  - Using the Azure portal's Import data wizard
+    - Data Source
+    - Index
+    - Indexer
+    - Skillset
+    - Knowledge store
