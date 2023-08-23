@@ -1,0 +1,3 @@
+- Machine learning: is a technique we can use to create predictive models based on data relationships. 
+- Anomaly Detector: is a machine learning-based technique that identifies unusual patterns in data sets.
+- Object detection machine learning models: are trained to classify individual objects within an image and identify their location with a bounding box. 
