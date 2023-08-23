@@ -37,3 +37,5 @@
     - Indexer
     - Skillset
     - Knowledge store
+## Query data in an Azure Cognitive Search index
+  - Simple query requests
