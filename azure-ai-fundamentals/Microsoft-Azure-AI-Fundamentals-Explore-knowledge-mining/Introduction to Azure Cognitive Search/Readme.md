@@ -34,8 +34,9 @@
   - Using the Azure portal's Import data wizard
     - Data Source
     - Index
-    - Indexer
+    - Indexer: An indexer serializes a source document into JSON before passing it to a search engine for indexing. An indexer automates several steps of data ingestion, reducing the amount of code you need to write.
     - Skillset
     - Knowledge store
 ## Query data in an Azure Cognitive Search index
   - Simple query requests
+## Exercise - Explore knowledge mining
