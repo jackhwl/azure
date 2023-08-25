@@ -22,3 +22,4 @@
     - Precision: The number of the cases classified as positive that are actually positive: the number of true positives divided by (the number of true positives plus false positives).
     - Recall: The fraction of positive cases correctly identified: the number of true positives divided by (the number of true positives plus false negatives).
     - F1 Score: An overall metric that essentially combines precision and recall.
+## Week 4 Create a Clustering Model with Azure Machine Learning Designer
