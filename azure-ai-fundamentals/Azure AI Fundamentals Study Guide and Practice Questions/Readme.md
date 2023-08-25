@@ -23,3 +23,19 @@
     - Anomaly detection: uses unsupervised learning to identify unusual patterns that do not conform to expected behavior
     - Dimensionality reduction: uses unsupervised learning to reduce the number of variables in a dataset
   - Reinforcement Learning: tries to achieve a goal through random trial and error by grading the performance of each attempt
+## CHAPTER 4 – DESCRIBE CORE MACHINE LEARNING CONCEPTS
+  - Features and Labels in a Dataset for ML
+    - Features: are characteristics that are measured to determine an appropriate label
+    - Labels: are the values that you want to predict from the features
+  - Training and Validation Datasets in ML
+    - Training dataset: is used to train the model
+    - Validation dataset: is used to evaluate the model， ensure that the model is not overfitting the training dataset
+    - Test dataset: is used to test the model after it has been trained and tuned, determine how well the model performs against new data
+  - ML Algorithms for Model Training
+  - Model Evaluation Metrics for Classification and Regression
+    - Accuracy: (TP+TN)/(TP+TN+FP+FN) - out all of the predictions, how many were correct?
+    - Recall (Sensitivity): TP/(TP+FN) - of all the cases that are positive, how many did the model identify?
+    - Precision: TP/(TP+FP) - of all the cases that the model predicted to be positive, how many actually are positive?
+    - F1 Score: 2 * (Precision * Recall) / (Precision + Recall) - a single metric that combines both precision and recall
+    - ROC Curve
+    - MAE finds the average absolute distance and MSE finds the average squared error
