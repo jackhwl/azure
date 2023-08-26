@@ -46,3 +46,7 @@
     - Feature engineering: is the process of transforming raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy on unseen data
   - Model Training and Evaluation
   - Model Deployment and Management
+## CHAPTER 6 – DESCRIBE THE CAPABILITIES OF NO-CODE MACHINE LEARNING WITH AZURE MACHINE LEARNING
+  - Azure Machine Learning Designer
+  - Automated Machine Learning
+  
