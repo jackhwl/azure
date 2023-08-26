@@ -39,3 +39,10 @@
     - F1 Score: 2 * (Precision * Recall) / (Precision + Recall) - a single metric that combines both precision and recall
     - ROC Curve
     - MAE finds the average absolute distance and MSE finds the average squared error
+## CHAPTER 5 – IDENTIFY CORE TASKS IN CREATING A MACHINE LEARNING SOLUTION
+  - Data Ingestion and Preparation
+  - Feature Selection and Engineering
+    - Feature selection: is the process of choosing the most relevant features in your data
+    - Feature engineering: is the process of transforming raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy on unseen data
+  - Model Training and Evaluation
+  - Model Deployment and Management
