@@ -58,3 +58,19 @@
   - Semantic Segmentation
   - Optical Character Recognition
   - Facial Detection
+## CHAPTER 8 – IDENTIFY AZURE TOOLS AND SERVICES FOR COMPUTER VISION TASKS
+  - Computer Vision
+    - Read API
+    - OCR API
+  - Custom Vision
+    - Image classification can apply labels to an image while object detection can identify the coordinates where the labels can be found.
+  - Face
+    - Know the differences between each of the API’s: 
+      - Face (coordinates), 
+      - Verify (detect if same person), 
+      - Group (finds similarities), 
+      - Identify (ID against database)
+  - Form Recognizer
+    - Custom models - Extract key data from forms.
+    - Prebuilt receipt model - Extract data from receipts.
+    - Layout API - Extract text and table structures from documents.
