@@ -12,6 +12,7 @@
   - Inclusiveness
   - Transparency
   - Accountability
+
 # Describe fundamental principles of machine learning on Azure (25–30%)
 ## CHAPTER 3 – IDENTIFY COMMON MACHINE LEARNING TYPES
   - Supervised Learning
@@ -49,4 +50,11 @@
 ## CHAPTER 6 – DESCRIBE THE CAPABILITIES OF NO-CODE MACHINE LEARNING WITH AZURE MACHINE LEARNING
   - Azure Machine Learning Designer
   - Automated Machine Learning
-  
+
+# Describe features of computer vision workloads on Azure (15–20%)
+## CHAPTER 7 – IDENTIFY COMMON TYPES OF COMPUTER VISION SOLUTIONS
+  - Image classification
+  - Object detection
+  - Semantic Segmentation
+  - Optical Character Recognition
+  - Facial Detection
