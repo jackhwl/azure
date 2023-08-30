@@ -74,3 +74,12 @@
     - Custom models - Extract key data from forms.
     - Prebuilt receipt model - Extract data from receipts.
     - Layout API - Extract text and table structures from documents.
+
+# Describe features of Natural Language Processing (NLP) workloads on Azure (25–30%)
+## CHAPTER 9 – IDENTIFY FEATURES FOR COMMON NLP WORKLOAD SCENARIOS
+  - Key phrase extraction
+  - Entity recognition
+  - Sentiment analysis
+  - Language modeling
+  - Speech recognition and synthesis
+  - Translation
