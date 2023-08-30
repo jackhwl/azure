@@ -4,3 +4,4 @@
 ## Week2: Work with Language in Azure AI
   - Translate text and speech
   - Create a Language Model with Language Understanding
+## Week3: Explore conversational AI
