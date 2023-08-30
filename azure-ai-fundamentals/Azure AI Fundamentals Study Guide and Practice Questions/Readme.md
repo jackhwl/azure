@@ -83,3 +83,12 @@
   - Language modeling
   - Speech recognition and synthesis
   - Translation
+## CHAPTER 10 – IDENTIFY AZURE TOOLS AND SERVICES FOR NLP WORKLOADS
+  - Text Analysis
+    - Sentiment Analysis - Microsoft provides analysis models that are pretrained using natural language technologies from Microsoft.
+    - Key Phrase Extraction
+    - Language Detection – The API can detect which language is input and provide a score indicating confidence level.
+    - Named Entity Recognition - Identify and categorize entities in your text (e.g., date/time, people, places, things, etc.)
+  - Language Understanding Intelligence Service
+  - Speech
+  - Text Translator
