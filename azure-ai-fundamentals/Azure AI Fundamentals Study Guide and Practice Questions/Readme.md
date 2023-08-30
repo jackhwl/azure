@@ -96,3 +96,6 @@
   - Webchat bots
   - Telephone Voice Menus
   - Personal Digital Assistants
+## CHAPTER 12 – IDENTIFY AZURE SERVICES FOR CONVERSATIONAL AI
+  - QnA Maker Service
+  - Bot Framework
