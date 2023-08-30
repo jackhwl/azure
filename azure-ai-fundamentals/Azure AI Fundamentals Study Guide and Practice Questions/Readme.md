@@ -92,3 +92,7 @@
   - Language Understanding Intelligence Service
   - Speech
   - Text Translator
+## CHAPTER 11 – IDENTIFY COMMON USE CASES FOR CONVERSATIONAL AI
+  - Webchat bots
+  - Telephone Voice Menus
+  - Personal Digital Assistants
