@@ -7,3 +7,7 @@
   - Data Science
   - Machine Learning
   - Artificial Intelligence
+## Understand considerations for AI Engineers
+  - Model training and inferencing
+  - Probability and confidence scores
+  - Responsible AI and ethics
