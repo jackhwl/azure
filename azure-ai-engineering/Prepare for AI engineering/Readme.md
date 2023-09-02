@@ -11,3 +11,10 @@
   - Model training and inferencing
   - Probability and confidence scores
   - Responsible AI and ethics
+## Understand considerations for responsible AI
+  - Fairness
+  - Reliability and Safety
+  - Privacy and Security
+  - Inclusiveness
+  - Transparency
+  - Accountability
