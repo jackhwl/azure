@@ -14,3 +14,7 @@
 ## Test and publish a knowledge base
   - Testing a knowledge base
   - Deploying a knowledge base
+## Use a knowledge base
+## Improve question answering performance
+  - Use active learning
+  - Define synonyms
