@@ -18,3 +18,6 @@
 ## Improve question answering performance
   - Use active learning
   - Define synonyms
+## Create a question answering bot
+## Exercise - Create a question answering solution
+  - git clone https://github.com/MicrosoftLearning/AI-102-AIEngineer
