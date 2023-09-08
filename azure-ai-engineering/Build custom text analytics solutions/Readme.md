@@ -8,3 +8,8 @@
     - Labeling data
     - Evaluating and improving your model
     - API payload
+## Understand how to build text classification projects
+  - Azure AI Language service project life cycle
+  - How to split datasets for training
+  - Deployment options
+  - Using the REST API
