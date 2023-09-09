@@ -13,3 +13,16 @@
   - How to split datasets for training
   - Deployment options
   - Using the REST API
+## Exercise - Classify text
+  - Create an Azure AI Language service resource
+    - Get Azure AI Language resource key and endpoint
+  - Upload sample articles
+  - Create a custom text classification project
+  - Label your data
+  - Train your model
+  - Evaluate your model
+  - Deploy your model
+  - Send text classification to your model
+  - Run Cloud Shell
+  - Configure and run PowerShell
+  - Clean up
