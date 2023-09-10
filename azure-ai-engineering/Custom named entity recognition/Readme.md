@@ -22,3 +22,5 @@
       - Analyze - this API does the work of actually extracting the entities; it requests a task and retrieves the results. Limited to 20 GET or POST
     - Projects - only 1 storage account per project, 500 projects per resource, and 50 trained models per project
     - Entities - each entity must be fewer than 10 words and 100 characters, up to 200 entity types, and at least 10 tagged instances per entity
+## Label your data
+  - How to label your data
