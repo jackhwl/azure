@@ -24,3 +24,14 @@
     - Entities - each entity must be fewer than 10 words and 100 characters, up to 200 entity types, and at least 10 tagged instances per entity
 ## Label your data
   - How to label your data
+## Train and evaluate your model
+  - Recall & Precision
+    - Accuracy: (TP+TN)/(TP+TN+FP+FN) - out all of the predictions, how many were correct?
+    - Recall (Sensitivity): TP/(TP+FN) - of all the cases that are positive, how many did the model identify?
+    - Precision: TP/(TP+FP) - of all the cases that the model predicted to be positive, how many actually are positive?
+  - Recall & Precision
+  - Recall: TP/(TP+FN) - of all the cases that are positive, how many did the model identify?
+  - Precision: TP/(TP+FP) - of all the cases that the model predicted to be positive, how many actually are positive?
+
+  - Precision	The ratio of successful entity recognitions to all attempted recognitions. A high score means that as long as the entity is recognized, it's labeled correctly.
+  - Recall	The ratio of successful entity recognitions to the actual number of entities in the document. A high score means it finds the entity or entities well, regardless of if it assigns them the right label
