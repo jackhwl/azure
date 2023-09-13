@@ -36,3 +36,8 @@
   - Precision	The ratio of successful entity recognitions to all attempted recognitions. A high score means that as long as the entity is recognized, it's labeled correctly.
   - Recall	The ratio of successful entity recognitions to the actual number of entities in the document. A high score means it finds the entity or entities well, regardless of if it assigns them the right label
 ## Exercise - Extract custom entities
+  - Create an Azure AI Language Service resource
+    - Get Azure AI Language resource key and endpoint
+  - Upload sample ads
+  - Create a custom named entity recognition project
+  
