@@ -4,3 +4,8 @@
   - Factors influencing a bot's success
   - Factors that do not guarantee success
   - Considerations for responsible AI
+## Get started with the Bot Framework SDK
+  - Developing a Bot with the Bot Framework SDK
+    - Bot templates
+    - Bot application classes and logic
+    - Testing with the Bot Framework Emulator
