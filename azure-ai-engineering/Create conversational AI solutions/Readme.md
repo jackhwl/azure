@@ -16,3 +16,9 @@
   - Dialogs
     - Component dialogs
     - Adaptive dialogs
+## Deploy a bot
+  - Create the Azure resources required to support your bot
+    - Register an Azure app
+    - Create a bot application service
+  - Prepare your bot for deployment
+  - Deploy your bot as a web app
