@@ -22,3 +22,4 @@
     - Create a bot application service
   - Prepare your bot for deployment
   - Deploy your bot as a web app
+## Exercise - Create a bot with the Bot Framework SDK
