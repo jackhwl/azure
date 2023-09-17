@@ -9,3 +9,10 @@
     - Bot templates
     - Bot application classes and logic
     - Testing with the Bot Framework Emulator
+## Implement activity handlers and dialogs
+  - Activity handlers
+    - Turn context
+    - More Information
+  - Dialogs
+    - Component dialogs
+    - Adaptive dialogs
