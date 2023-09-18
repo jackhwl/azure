@@ -23,3 +23,10 @@
   - Prepare your bot for deployment
   - Deploy your bot as a web app
 ## Exercise - Create a bot with the Bot Framework SDK
+
+# Create a Bot with the Bot Framework Composer
+## Introduction
+## Understand ways to build a bot
+  - Power Virtual Agents
+  - Bot Framework Composer
+  - Bot Framework SDK
