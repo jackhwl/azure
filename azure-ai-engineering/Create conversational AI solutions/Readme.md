@@ -34,3 +34,5 @@
 ## Understand dialogs
   - A flow of dialogs
   - Implementing dialogs with the Bot Framework Composer
+## Understand adaptive flow
+  - Managing interruptions with the Bot Framework Composer
