@@ -31,3 +31,6 @@
   - Bot Framework Composer
   - Bot Framework SDK
 ## Get started with the Bot Framework Composer
+## Understand dialogs
+  - A flow of dialogs
+  - Implementing dialogs with the Bot Framework Composer
