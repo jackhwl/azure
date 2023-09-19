@@ -36,3 +36,10 @@
   - Implementing dialogs with the Bot Framework Composer
 ## Understand adaptive flow
   - Managing interruptions with the Bot Framework Composer
+## Design the user experience
+  - Text
+  - Speech
+  - Rich user controls
+  - Cards
+  - Recommendations for choosing the experience options
+  - Presenting responses with the Bot Framework Composer
