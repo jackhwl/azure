@@ -43,3 +43,4 @@
   - Cards
   - Recommendations for choosing the experience options
   - Presenting responses with the Bot Framework Composer
+## Exercise - Create a bot with the Bot Framework Composer
