@@ -11,3 +11,9 @@
     - Azure Document Intelligence resource
   - Understand Azure Document Intelligence file input requirements
   - Decide what component of Azure Document Intelligence to use
+## Understand prebuilt models
+  - W-2s (preview)
+  - Invoices
+  - Receipts
+  - ID documents
+  - Business Cards
