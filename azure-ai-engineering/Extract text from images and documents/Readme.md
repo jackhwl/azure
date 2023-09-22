@@ -3,3 +3,5 @@
 ## Explore Azure AI Vision options for reading text
   - Read API
   - Image Analysis API
+## Use the Read API
+## Exercise - Read text in images
