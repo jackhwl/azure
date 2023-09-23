@@ -18,3 +18,7 @@
   - ID documents
   - Business Cards
 ## Train custom models
+## Use Azure Document Intelligence models
+  - Using the REST API
+  - Understanding confidence scores
+  - Using the SDK
