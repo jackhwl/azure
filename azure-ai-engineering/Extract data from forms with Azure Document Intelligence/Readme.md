@@ -23,3 +23,7 @@
   - Understanding confidence scores
   - Using the SDK
 ## Exercise - Extract data from custom forms
+## Use the Azure Document Intelligence Studio
+  - Build Document analysis model projects
+  - Build prebuilt model projects
+  - Build custom model projects
