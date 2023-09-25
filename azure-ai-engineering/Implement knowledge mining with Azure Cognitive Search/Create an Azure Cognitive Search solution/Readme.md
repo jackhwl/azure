@@ -10,3 +10,15 @@
     - Documents in Cosmos DB.
   - Skillset
   - Indexer
+## Understand the indexing process
+  - document
+      metadata_storage_name
+      metadata_author
+      content
+      normalized_images
+        image0
+          Text
+        image1
+          Text
+      language
+      merged_content
