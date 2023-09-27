@@ -24,4 +24,7 @@
       merged_content
 ## Search an index
   - Full text search
-  
+## Apply filtering and sorting
+  - Filtering results
+  - Filtering with facets
+  - Sorting results
