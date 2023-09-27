@@ -22,3 +22,6 @@
           Text
       language
       merged_content
+## Search an index
+  - Full text search
+  
