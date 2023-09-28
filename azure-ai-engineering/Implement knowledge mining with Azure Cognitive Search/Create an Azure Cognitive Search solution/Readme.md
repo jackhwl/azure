@@ -32,3 +32,5 @@
   - Search-as-you-type
   - Custom scoring and result boosting
   - Synonyms
+## Exercise - Create a search solution
+
