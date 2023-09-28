@@ -28,3 +28,7 @@
   - Filtering results
   - Filtering with facets
   - Sorting results
+## Enhance the index
+  - Search-as-you-type
+  - Custom scoring and result boosting
+  - Synonyms
