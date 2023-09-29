@@ -1,5 +1,8 @@
 ## Introduction
   - Azure Cognitive Search
+    - Index documents and data from a range of sources.
+    - Use cognitive skills to enrich index data.
+    - Store extracted insights in a knowledge store for analysis and integration.
 ## Azure resources
   - Service tiers and capacity management
     - Replicas and partitions
@@ -33,4 +36,8 @@
   - Custom scoring and result boosting
   - Synonyms
 ## Exercise - Create a search solution
-
+## Summary
+  - A data source where the data to be indexed is stored (though you can also push data directly into an index by using the API).
+  - A skillset that defines and enrichment pipeline of cognitive skills to enrich the index data.
+  - An index that defines fields, which the user can query.
+  - An indexer that populates the fields in the index with values extracted from the source data.
