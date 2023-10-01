@@ -12,6 +12,15 @@
     - Tables in Azure SQL Database.
     - Documents in Cosmos DB.
   - Skillset
+    - In a basic search solution, you might simply index the data extracted from the data source. 
+    - In Azure Cognitive Search, you can apply artificial intelligence (AI) skills as part of the indexing process to enrich the source data with new information, which can be mapped to index fields.
+    - Examples of the kind of information that can be extracted by an AI skill include:
+      - The language in which a document is written.
+      - Key phrases that might help determine the main themes or topics discussed in a document.
+      - A sentiment score that quantifies how positive or negative a document is.
+      - Specific locations, people, organizations, or landmarks mentioned in the content.
+      - AI-generated descriptions of images, or image text extracted by optical character recognition.
+      - Custom skills that you develop to meet specific requirements.
   - Indexer
 ## Understand the indexing process
   - document
