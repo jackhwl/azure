@@ -21,7 +21,8 @@
       - Specific locations, people, organizations, or landmarks mentioned in the content.
       - AI-generated descriptions of images, or image text extracted by optical character recognition.
       - Custom skills that you develop to meet specific requirements.
-  - Indexer
+  - Indexer: is the engine that drives the overall indexing process
+    - It takes the outputs extracted using the skills in the skillset, along with the data and metadata values extracted from the original data source, and maps them to fields in the index.
 ## Understand the indexing process
   - document
       metadata_storage_name
