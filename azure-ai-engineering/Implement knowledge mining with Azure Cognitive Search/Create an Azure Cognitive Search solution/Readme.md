@@ -32,6 +32,7 @@
       - facetable: Fields that can be used to determine values for facets (user interface elements used to - filter the results based on a list of known field values).
       - retrievable: Fields that can be included in search results (by default, all fields are retrievable unless this attribute is explicitly removed).
 ## Understand the indexing process
+The indexing process works by creating a document for each indexed entity. During indexing, an enrichment pipeline iteratively builds the documents that combine metadata from the data source with enriched fields extracted by cognitive skills. You can think of each indexed document as a JSON structure, which initially consists of a document with the index fields you have mapped to fields extracted directly from the source data, like this
   - document
       metadata_storage_name
       metadata_author
