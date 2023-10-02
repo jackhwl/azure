@@ -23,6 +23,14 @@
       - Custom skills that you develop to meet specific requirements.
   - Indexer: is the engine that drives the overall indexing process
     - It takes the outputs extracted using the skills in the skillset, along with the data and metadata values extracted from the original data source, and maps them to fields in the index.
+  - Index: is the searchable result of the indexing process. It consists of a collection of JSON documents, with fields that contain the values extracted during indexing. Client applications can query the index to retrieve, filter, and sort information.
+    - Each index field can be configured with the following attributes:
+      - key: Fields that define a unique key for index records.
+      - searchable: Fields that can be queried using full-text search.
+      - filterable: Fields that can be included in filter expressions to return only documents that match - specified constraints.
+      - sortable: Fields that can be used to order the results.
+      - facetable: Fields that can be used to determine values for facets (user interface elements used to - filter the results based on a list of known field values).
+      - retrievable: Fields that can be included in search results (by default, all fields are retrievable unless this attribute is explicitly removed).
 ## Understand the indexing process
   - document
       metadata_storage_name
