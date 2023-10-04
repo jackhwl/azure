@@ -54,6 +54,14 @@ The fields in the final document structure at the end of the pipeline are mapped
   - Full text search
     - Simple - An intuitive syntax that makes it easy to perform basic searches that match literal query terms submitted by a user.
     - Full - An extended syntax that supports complex filtering, regular expressions, and other more sophisticated queries.
+    - Some common parameters submitted with a query include:
+      - search - A search expression that includes the terms to be found.
+      - queryType - The Lucene syntax to be evaluated (simple or full).
+      - searchFields - The index fields to be searched.
+      - select - The fields to be included in the results.
+      - searchMode - Criteria for including results based on multiple search terms. 
+      
+      For example, suppose you search for comfortable hotel. A searchMode value of Any will return documents that contain "comfortable", "hotel", or both; while a searchMode value of All will restrict results to documents that contain both "comfortable" and "hotel".
 ## Apply filtering and sorting
   - Filtering results
   - Filtering with facets
