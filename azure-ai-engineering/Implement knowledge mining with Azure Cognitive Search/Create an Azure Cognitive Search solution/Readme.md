@@ -52,6 +52,8 @@ The fields in the final document structure at the end of the pipeline are mapped
 
 ## Search an index
   - Full text search
+    - Simple - An intuitive syntax that makes it easy to perform basic searches that match literal query terms submitted by a user.
+    - Full - An extended syntax that supports complex filtering, regular expressions, and other more sophisticated queries.
 ## Apply filtering and sorting
   - Filtering results
   - Filtering with facets
