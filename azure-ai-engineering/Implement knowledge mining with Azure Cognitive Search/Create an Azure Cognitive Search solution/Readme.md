@@ -3,7 +3,7 @@
     - Index documents and data from a range of sources.
     - Use cognitive skills to enrich index data.
     - Store extracted insights in a knowledge store for analysis and integration.
-## Azure resources
+## Manage capacity
   - Service tiers and capacity management
     - Replicas and partitions
 ## Search components
