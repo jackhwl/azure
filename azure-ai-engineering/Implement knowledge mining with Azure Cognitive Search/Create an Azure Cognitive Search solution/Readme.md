@@ -59,3 +59,5 @@
   - A skillset that defines and enrichment pipeline of cognitive skills to enrich the index data.
   - An index that defines fields, which the user can query.
   - An indexer that populates the fields in the index with values extracted from the source data.
+
+### review
