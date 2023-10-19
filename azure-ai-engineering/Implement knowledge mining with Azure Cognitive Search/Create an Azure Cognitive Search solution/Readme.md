@@ -32,6 +32,7 @@
       - facetable: Fields that can be used to determine values for facets (user interface elements used to - filter the results based on a list of known field values).
       - retrievable: Fields that can be included in search results (by default, all fields are retrievable unless this attribute is explicitly removed).
 ## Understand the indexing process
+The indexing process works by creating a document for each indexed entity. During indexing, an enrichment pipeline iteratively builds the documents that combine metadata from the data source with enriched fields extracted by cognitive skills. You can think of each indexed document as a JSON structure, which initially consists of a document with the index fields you have mapped to fields extracted directly from the source data, like this
   - document
       metadata_storage_name
       metadata_author
@@ -43,8 +44,24 @@
           Text
       language
       merged_content
+
+The fields in the final document structure at the end of the pipeline are mapped to index fields by the indexer in one of two ways:
+
+  1. Fields extracted directly from the source data are all mapped to index fields. These mappings can be implicit (fields are automatically mapped to in fields with the same name in the index) or explicit (a mapping is defined to match a source field to an index field, often to rename the field to something more useful or to apply a function to the data value as it is mapped).
+  2. Output fields from the skills in the skillset are explicitly mapped from their hierarchical location in the output to the target field in the index.
+
 ## Search an index
   - Full text search
+    - Simple - An intuitive syntax that makes it easy to perform basic searches that match literal query terms submitted by a user.
+    - Full - An extended syntax that supports complex filtering, regular expressions, and other more sophisticated queries.
+    - Some common parameters submitted with a query include:
+      - search - A search expression that includes the terms to be found.
+      - queryType - The Lucene syntax to be evaluated (simple or full).
+      - searchFields - The index fields to be searched.
+      - select - The fields to be included in the results.
+      - searchMode - Criteria for including results based on multiple search terms. 
+      
+      For example, suppose you search for comfortable hotel. A searchMode value of Any will return documents that contain "comfortable", "hotel", or both; while a searchMode value of All will restrict results to documents that contain both "comfortable" and "hotel".
 ## Apply filtering and sorting
   - Filtering results
   - Filtering with facets
