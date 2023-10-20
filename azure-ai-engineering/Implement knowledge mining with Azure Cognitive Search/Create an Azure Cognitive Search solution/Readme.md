@@ -6,7 +6,7 @@
 ## Manage capacity
   - Service tiers and capacity management
     - Replicas and partitions
-## Search components
+## Understand Search components
   - Data source
     - Unstructured files in Azure blob storage containers.
     - Tables in Azure SQL Database.
