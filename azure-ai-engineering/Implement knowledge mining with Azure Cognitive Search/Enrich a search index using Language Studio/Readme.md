@@ -18,3 +18,4 @@
     - Add a field to an existing index
     - Edit the custom skillset
     - Map the output from the function app into the index
+## Exercise: Enrich a cognitive search index with custom classes
