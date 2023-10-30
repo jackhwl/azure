@@ -7,3 +7,4 @@ set resource_group=Wenlin-AI-102
 set location=eastus
 ### az login --tenant 49f292cb-07f1-4e23-a6be-28db00c8ef05
 ### there is a bug when trying to create container in storage acount after it auto generated
+## Enrich a search index using Language Studio
