@@ -12,3 +12,8 @@
     - Precedence grouping: (term AND (term OR term)) for example (Description:luxury OR Category:luxury) AND Tags:air?con*
     - Term boosting: ^ for example Description:luxury OR Category:luxury^3 would give hotels with the category luxury a higher score than luxury in the description
   - Boost search terms
+## Improve the relevance of results by adding scoring profiles
+  - How search scores are calculated
+    - Improve the score for more relevant documents
+  - Add a weighted scoring profile
+  - Use functions in a scoring profile
