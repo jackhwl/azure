@@ -17,3 +17,14 @@
     - Improve the score for more relevant documents
   - Add a weighted scoring profile
   - Use functions in a scoring profile
+## Improve an index with analyzers and tokenized terms
+  - Analyzers in Cognitive Search
+    - Language analyzers
+    - Specialized analyzers
+  - What is a custom analyzer?
+    - Character filters
+    - Tokenizers
+    - Token filters
+  - Create a custom analyzer
+  - Test a custom analyzer
+  - Use a custom analyzer for a field
