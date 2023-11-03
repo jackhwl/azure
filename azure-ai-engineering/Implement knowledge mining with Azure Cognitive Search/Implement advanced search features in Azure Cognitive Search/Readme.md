@@ -28,3 +28,5 @@
   - Create a custom analyzer
   - Test a custom analyzer
   - Use a custom analyzer for a field
+## Enhance an index to include multiple languages
+  - Add language specific fields
