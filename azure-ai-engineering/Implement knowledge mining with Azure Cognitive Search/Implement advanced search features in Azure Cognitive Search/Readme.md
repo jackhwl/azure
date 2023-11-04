@@ -35,3 +35,6 @@
     - Add the new fields
     - Add the translation skillsets
     - Map the translated output into the index
+## Improve search experience by ordering results by distance from a given reference point
+  - What are geo-spatial functions?
+  - Use the geo.distance function
