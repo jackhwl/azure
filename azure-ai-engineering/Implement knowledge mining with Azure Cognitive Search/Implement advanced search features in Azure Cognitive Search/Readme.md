@@ -30,3 +30,8 @@
   - Use a custom analyzer for a field
 ## Enhance an index to include multiple languages
   - Add language specific fields
+  - Limit the fields for a language
+  - Enrich an index with multiple languages using Azure AI Services
+    - Add the new fields
+    - Add the translation skillsets
+    - Map the translated output into the index
