@@ -38,3 +38,4 @@
 ## Improve search experience by ordering results by distance from a given reference point
   - What are geo-spatial functions?
   - Use the geo.distance function
+## Exercise: Implement enhancements to search results
