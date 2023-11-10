@@ -6,3 +6,4 @@
   - Alter how the model works to allow it to be called by the AML custom skill
   - Create an endpoint for your model to use
   - Connect the AML custom skill to the endpoint
+## Exercise: Enrich a search index using Azure Machine Learning model
