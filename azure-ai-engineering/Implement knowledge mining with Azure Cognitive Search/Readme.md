@@ -9,3 +9,4 @@ set location=eastus
 ### there is a bug when trying to create container in storage acount after it auto generated
 ## Enrich a search index using Language Studio
 ## Implement advanced search features in Azure Cognitive Search
+## Build an Azure Machine Learning custom skill for Azure Cognitive Search
