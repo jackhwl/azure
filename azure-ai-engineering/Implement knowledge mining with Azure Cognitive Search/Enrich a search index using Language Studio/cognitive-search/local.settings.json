@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=wenlinacs18245strfunctio;AccountKey=/5ldoPnQ1lPE9d1Q+waZcu6lvJiORxQpxMlAzdAcH9sF38UA0sk6XnIvWJzZHgnsS9t5xFWhQV7f+AStLSWwlg==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=wenlinacs18245strfunctio;AccountKey=/5ldoPnQ1lPE9d1Q+waZcu6lvJiORxQpxMlAzdAcH9sF38UA0sk6XnIvWJzZHgnsS9t5xFWhQV7f+AStLSWwlg==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "wenlinacs18245str-function-app8e8446",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "ca185c97-98de-4175-b8c3-50722e1c3327",
+    "TA_ENDPOINT": "https://wenlin-lang2.cognitiveservices.azure.com/language/analyze-text/jobs?api-version=2022-10-01-preview",
+    "TA_KEY": "6eeae3da2fd24edc893d2f479a6051df",
+    "DEPLOYMENT": "test-release",
+    "PROJECT_NAME": "movie-genre-classifier"
+  }
+}
