@@ -3,7 +3,7 @@
   - Serverless Computing and Azure Functions
   - Essential Concepts in Azure Functions (HTBCD)
   - Hosting Azure Functions
-
+  - Real-World Uses for Azure Functions
 
 # Reducing C# Code Duplication in Azure Functions
 - Course Overview
