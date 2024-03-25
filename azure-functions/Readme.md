@@ -6,6 +6,7 @@
   - Real-World Uses for Azure Functions
 # Creating functions in the Portal
 - Create a Function App in the Portal
+- Create and Run a Function in the Portal
 
 # Reducing C# Code Duplication in Azure Functions
 - Course Overview
