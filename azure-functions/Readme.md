@@ -7,6 +7,7 @@
 # Creating functions in the Portal
 - Create a Function App in the Portal
 - Create and Run a Function in the Portal
+- Exploring the HTTP Trigger Function and App. Part 1
 
 # Reducing C# Code Duplication in Azure Functions
 - Course Overview
